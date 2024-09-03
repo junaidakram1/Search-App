@@ -45,6 +45,7 @@ body {
     height: 60px;
     text-align: center;
     width: 100%;
+    /* font-weight: bold; */
 }
 
 .offscreen {
@@ -209,17 +210,26 @@ img {
 }
 
 a {
-    color: grey;
+    color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
+.result-title a {
+    color: black;
+    font-weight: 450;
+}
+
+.result-title a:hover {
+    color: grey;
+}
+
 a:visited {
-    color: purple
+    color: purple;
 }
 
 a:hover {
-    color: black;
+    color: grey;
 }
 
 .result-container {
